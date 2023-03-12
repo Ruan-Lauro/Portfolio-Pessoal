@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* personalizar a barra em geral, aqui estou definindo 10px de largura para a barra vertical
+e 10px de altura para a barra horizontal */
+::-webkit-scrollbar {
+    width:0px;
+    height:0px;
+    }
+     
+    /* aqui é para personalizar o fundo da barra, neste caso estou colocando um fundo cinza escuro*/
+    ::-webkit-scrollbar-track {
+    background:#333;
+    }
+     
+    /* aqui é a alça da barra, que demonstra a altura que você está na página
+    estou colocando uma cor azul clara nela*/
+    ::-webkit-scrollbar-thumb {
+    background: #2e9dd8;
+    }
+
+header{
+    background-image: url("img/Design\ sem\ nome.png");
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ini-img{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    margin-left: 30px;
+}
+
+header .ini-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.ini-text{
+    margin-top: 85px;
+    width: 450px;
+    color: white;
+    padding: 20px;
+}
+
+.ini-text h1{
+    margin-bottom: 10px;
+    font-size: 38px;
+    word-spacing: 0;
+    text-align: start;
+}
+
+.tom{
+    color: #FE402B;
+}
+
+.ini-text h2{
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.ini-text p{
+    font-size: 18px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /*background-color: #100e0ef6;*/
+    background-color:  #FE402B;
+    padding-bottom: 55px;
+}
+
+.main-princ{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.main-princ-img{
+    display: flex;
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 100%;
+    box-shadow: -5px 0 0 #100e0e61;
+    margin-right: 60px;
+    background-color: #100E0E;
+}
+
+.main-princ-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.main-princ-text{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-princ-text h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.main-princ-text-pri{
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.main-princ-text-seg{
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cor{
+    color: black;
+}
+
+.main-princ-text-ter{
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.main-princ-text-qua{
+    width: 16%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: black;
+    font-weight: 600;
+    margin-left: 75%;
+    font-size: 12px;
+}
+
+.main-lin{
+    background-color: #100E0E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-lin h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+
+.tam{
+    width: 150px;
+    margin-right: 15px;
+}
+
+.tam img{
+    width: 100%;
+}
+
+#tam-css{
+    margin-right: 50px;
+}
+
+.tam-bac{
+    width: 150px;
+    margin-right: 50px;
+}
+
+#tam-py{
+    margin-right: 70px;
+    margin-left: 40px;
+}
+
+#tam-ja{
+    margin-left: 40px;
+}
+
+.tam-bac img{
+    width: 100%;
+}
+
+.main-lin-fro{
+    display: flex;
+    overflow: auto;
+    width: 170px;
+}
+
+.main-lin-fro-img{
+    margin-left: 30px;
+    display: flex;
+}
+
+.main-lin-bac{
+    display: flex;
+    overflow: auto;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-lin-bac-img{
+    margin-left: 30px;
+    display: flex;
+}
+
+footer{
+}
+
