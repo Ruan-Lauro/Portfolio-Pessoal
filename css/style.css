@@ -409,6 +409,9 @@ footer{
     
     .ini-text{
         width: 300px;
+        background-color: #100E0E;
+        margin-left: 0;
+        margin-right: 0;
     }
     
     .ini-text h1{
