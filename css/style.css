@@ -336,7 +336,7 @@ footer{
     }
 }
 
-@media (max-width: 555px){
+@media (max-width: 650px){
     
     .ini-img{ 
         width: 250px;
@@ -386,8 +386,7 @@ footer{
     }
 }
 
-@media (max-width: 400px){
-
+@media (max-width: 605px){
     header{
         background-size: contain;
         display: flex;
@@ -398,9 +397,6 @@ footer{
         text-align: center;
     }
 
-    .colo{
-        color: white;
-    }
 
     .ini-img{ 
         width: 250px;
@@ -453,5 +449,10 @@ footer{
         font-size: 25px;
         text-align: center;
     }
+}
+
+@media (max-width: 400px){
+
+   
 
 }
