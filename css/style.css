@@ -218,3 +218,227 @@ header .ini-img img{
 footer{
 }
 
+@media (max-width: 900px){
+    .ini-img{
+        width: 300px;
+        height: 500px;
+        display: flex;
+        margin-left: 15px;
+    }
+    
+    .ini-text h1{
+        margin-bottom: 10px;
+        font-size: 34px;
+        word-spacing: 0;
+        text-align: start;
+    }
+    
+    
+    .main-princ-img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 100%;
+        box-shadow: -5px 0 0 #100e0e61;
+        margin-right: 60px;
+        background-color: #100E0E;
+    }
+    
+    .main-princ-text{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 725px){
+
+    .ini-img{ 
+        width: 300px;
+        height: 500px;
+        margin-left: 10px;
+    }
+
+    
+    .ini-text{
+        width: 400px;
+        margin-left: 15px;
+    }
+    
+    .ini-text h1{
+        font-size: 30px;
+    }
+    
+    .ini-text h2{
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    
+    .ini-text p{
+        font-size: 16px;
+    }
+
+    .main-princ{
+        flex-direction: column;
+    }
+
+    .main-princ-img{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 100%;
+        box-shadow: -5px 0 0 #100e0e61;
+        margin-left: 13%;
+        margin-bottom: 20px;
+        background-color: #100E0E;
+    }
+    
+    .main-princ-text{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-princ-text h2{
+        font-size: 35px;
+        margin: 20px 0;
+    }
+    
+    .main-princ-text-pri{
+        font-weight: 600;
+        letter-spacing: 4px;
+    }
+    
+    .main-princ-text-seg{
+        color: black;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .cor{
+        color: black;
+    }
+    
+    .main-princ-text-ter{
+        margin-bottom: 20px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .main-lin h2{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 555px){
+    
+    .ini-img{ 
+        width: 250px;
+        height: 450px;
+    }
+    
+    .ini-text{
+        width: 350px;
+        margin-left: 15px;
+    }
+    
+    .ini-text h1{
+        font-size: 20px;
+    }
+    
+    .ini-text h2{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    
+    .ini-text p{
+        font-size: 14px;
+    }
+
+    .main-princ-img{
+        width: 160px;
+        height: 160px;
+    }
+
+    .main-princ-text h2{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .main-princ-text-seg{
+        font-size: 18px;
+    }
+
+    .main-princ-text-ter{
+        font-size: 14px;
+    }
+
+    .main-lin h2{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px){
+
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .ini-img{ 
+        width: 250px;
+        height: 450px;
+    }
+    
+    .ini-text{
+        width: 300px;
+    }
+    
+    .ini-text h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .ini-text h2{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    
+    .ini-text p{
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .main-princ-img{
+        margin-left: 60px;
+    }
+
+    .main-princ-text{
+        width: 100%;
+    }
+
+    .main-princ-text h2{
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .main-princ-text-ter{
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .main-lin h2{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+}
