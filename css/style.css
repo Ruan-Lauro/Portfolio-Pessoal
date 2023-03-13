@@ -389,8 +389,17 @@ footer{
 @media (max-width: 400px){
 
     header{
+        background-size: contain;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         text-align: center;
+    }
+
+    .colo{
+        color: white;
     }
 
     .ini-img{ 
@@ -413,8 +422,9 @@ footer{
     }
     
     .ini-text p{
-        font-size: 14px;
+        font-size: 16px;
         text-align: justify;
+        font-weight: 700;
     }
 
     .main-princ-img{
@@ -426,13 +436,13 @@ footer{
     }
 
     .main-princ-text h2{
-        font-size: 30px;
+        font-size: 35px;
         margin: 20px 0;
     }
 
     .main-princ-text-ter{
-        font-size: 14px;
-        margin: 10px;
+        font-size: 16px;
+        margin: 20px;
     }
 
     .main-lin h2{
