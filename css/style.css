@@ -24,8 +24,9 @@ e 10px de altura para a barra horizontal */
     }
 
 header{
-    background-image: url("img/Design\ sem\ nome.png");
-    background-size: cover;
+    /*background-image: url("img/Design\ sem\ nome.png");
+    background-size: contain;*/
+    background-color: #100E0E;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -90,12 +91,11 @@ header .ini-img img{
 
 .main-princ-img{
     display: flex;
-    width: 260px;
-    height: 260px;
+    width: 250px;
     overflow: hidden;
     border-radius: 100%;
     box-shadow: -5px 0 0 #100e0e61;
-    margin-right: 60px;
+    margin-left: 60px;
     background-color: #100E0E;
 }
 
@@ -241,7 +241,7 @@ footer{
         overflow: hidden;
         border-radius: 100%;
         box-shadow: -5px 0 0 #100e0e61;
-        margin-right: 60px;
+        margin-left: 60px;
         background-color: #100E0E;
     }
     
