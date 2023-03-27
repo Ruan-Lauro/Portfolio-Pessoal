@@ -23,10 +23,18 @@ e 10px de altura para a barra horizontal */
     background: #2e9dd8;
     }
 
+body{
+    background-color: #100E0E;
+}
+
 header{
     /*background-image: url("img/Design\ sem\ nome.png");
     background-size: contain;*/
     background-color: #100E0E;
+}
+
+.header-tam{
+    margin-top: 20px;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -34,8 +42,7 @@ header{
 }
 
 .ini-img{
-    width: 400px;
-    height: 600px;
+    width: 250px;
     display: flex;
     margin-left: 30px;
 }
@@ -46,10 +53,10 @@ header .ini-img img{
 }
 
 .ini-text{
-    margin-top: 85px;
     width: 450px;
     color: white;
-    padding: 20px;
+    padding-bottom: 115px;
+    padding-top: 115px;
 }
 
 .ini-text h1{
@@ -77,7 +84,7 @@ header .ini-img img{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #D3FEE7;
     /*background-color: #100e0ef6;*/
     background-color:  #FE402B;
     padding-bottom: 55px;
@@ -220,8 +227,7 @@ footer{
 
 @media (max-width: 900px){
     .ini-img{
-        width: 300px;
-        height: 500px;
+        width: 250px;
         display: flex;
         margin-left: 15px;
     }
@@ -255,8 +261,7 @@ footer{
 @media (max-width: 725px){
 
     .ini-img{ 
-        width: 300px;
-        height: 500px;
+        width: 250px;
         margin-left: 10px;
     }
 
@@ -340,7 +345,6 @@ footer{
     
     .ini-img{ 
         width: 250px;
-        height: 450px;
     }
     
     .ini-text{
@@ -400,7 +404,6 @@ footer{
 
     .ini-img{ 
         width: 250px;
-        height: 450px;
     }
     
     .ini-text{
