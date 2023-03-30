@@ -84,7 +84,7 @@ header .ini-img img{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #D3FEE7;
+    color:#3D0F0A;
     /*background-color: #100e0ef6;*/
     background-color:  #FE402B;
     padding-bottom: 55px;
@@ -173,7 +173,8 @@ header .ini-img img{
 }
 
 .tam img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #tam-css{
@@ -195,7 +196,8 @@ header .ini-img img{
 }
 
 .tam-bac img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .main-lin-fro{
