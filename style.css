@@ -357,19 +357,14 @@ footer{
 }
 
 @media (max-width: 605px){
-    header{
-        background-size: contain;
+    .header-tam{
+        margin-top: 0;
         display: flex;
+        flex-direction: column;
         width: 100%;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         text-align: center;
-    }
-
-
-    .ini-img{ 
-        width: 250px;
     }
     
     .ini-text{
@@ -377,7 +372,16 @@ footer{
         background-color: #100E0E;
         margin-left: 0;
         margin-right: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
+
+    /* width: 450px;
+    color: white;
+    padding-bottom: 115px;
+    padding-top: 115px;*/
     
     .ini-text h1{
         font-size: 25px;
