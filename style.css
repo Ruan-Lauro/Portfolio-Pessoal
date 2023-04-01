@@ -167,61 +167,25 @@ header .ini-img img{
     font-size: 40px;
 }
 
-.tam{
-    width: 150px;
-    margin-right: 15px;
-}
-
-.tam img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#tam-css{
-    margin-right: 50px;
-}
-
-.tam-bac{
-    width: 150px;
-    margin-right: 50px;
-}
-
-#tam-py{
-    margin-right: 70px;
-    margin-left: 40px;
-}
-
-#tam-ja{
-    margin-left: 40px;
-}
-
-.tam-bac img{
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .main-lin-fro{
-    display: flex;
-    overflow: auto;
-    width: 170px;
+   display: flex;
+   overflow: hidden;
+   width: 200px;
+   height: 200px;
+   margin-bottom: 20px;
 }
 
 .main-lin-fro-img{
-    margin-left: 30px;
-    display: flex;
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+   transform: translateX(0);
+
 }
 
-.main-lin-bac{
-    display: flex;
-    overflow: auto;
-    width: 250px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.main-lin-bac-img{
-    margin-left: 30px;
-    display: flex;
+.main-lin-fro-img img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
 }
 
 footer{
